@@ -1,1 +1,2 @@
-#!/bin/bash\necho gcc $CFILE
+#!/bin/bash
+echo gcc main.c
