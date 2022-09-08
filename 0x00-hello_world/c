@@ -1,1 +1,2 @@
-#!/bin/bashcho gcc "$CFILE"
+#!/bin/bash
+gcc $CFILE
