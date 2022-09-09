@@ -1,1 +1,2 @@
--e#!/bin/bash\ngcc -c $FILE -o o
+#!/bin/bash
+gcc -c $CFILE -o o
