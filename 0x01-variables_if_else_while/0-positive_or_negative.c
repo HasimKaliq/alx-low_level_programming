@@ -7,10 +7,10 @@
 int 
 main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 	
 if(n > 0)
 { 
@@ -27,6 +27,6 @@ else
    printf("%d is negative\n", n);	    
 }
 	
-	/* your code goes there */
-	return (0);
+/* your code goes there */
+return (0);
 }
