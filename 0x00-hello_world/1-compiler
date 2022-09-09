@@ -1,1 +1,1 @@
--e#!/bin/bash\gcc -c $FILE -o o
+-e#!/bin/bash\ngcc -c $FILE -o o
