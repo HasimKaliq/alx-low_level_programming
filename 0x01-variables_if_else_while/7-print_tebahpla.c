@@ -3,7 +3,7 @@ int
 main(void)
 {
 char lowerCase;
-for (lowerCase = 'z'; lowerCase <= 'a'; lowerCase--)
+for (lowerCase = 'z'; lowerCase >= 'a'; lowerCase--)
 {
 putchar(lowerCase);
 }
