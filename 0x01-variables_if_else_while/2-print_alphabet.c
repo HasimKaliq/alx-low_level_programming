@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-   char lowerCase;
-   for(lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
+	char lowerCase;
+	for(lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 {
-      putchar(lowerCase);
+		putchar(lowerCase);
+		putchar();
    } 
-   return (0);
+return (0);
 }
