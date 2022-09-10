@@ -1,12 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 int
-main(void)
+main(void){
+int i=0;
+for(i; i<10; i++)
 {
-char low;
-for (low = '0'; low < 10; low++)
-{
-putchar(low);
+printf("%d", i);
 }
-putchar('\n');
-return (0);
+printf("\n");
+return 0;
 }
