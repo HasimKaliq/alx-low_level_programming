@@ -2,12 +2,12 @@
 int
 main(void)
 {
-	char lowerCase;
+char lowerCase;
 for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 {
-	putchar(lowerCase);
+putchar(lowerCase);
 }
-	putchar('\n');
+putchar('\n');
 
-	return (0);
+return (0);
 }
