@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int 
-main(void) 
+int
+main(void)
 {
 char lowerCase;
 for(lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
@@ -9,7 +9,7 @@ for(lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
       putchar(lowerCase);
       
    }
-   putchar('\n'); 
+   putchar('\n');
    
    return(0);
 } 
