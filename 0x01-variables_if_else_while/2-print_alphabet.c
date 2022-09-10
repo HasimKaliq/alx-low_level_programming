@@ -9,5 +9,5 @@ for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
    }
    putchar('\n');
 
-   return(0);
+   return (0);
 } 
