@@ -14,7 +14,7 @@ int main(void)
 		printf("and is greater than %d\n", n);
 	else if (n == 0)
 		printf("and is %d", n);
-	else if(n < 6 && != 0)
+	else if(n < 6 && n != 0)
 		printf("and is less than %d and not 0\n", n); 
 	/* your code goes there */
 	return (0);
