@@ -10,4 +10,4 @@ putchar(lowerCase);
 putchar('\n');
 
 return (0);
-} 
+}
