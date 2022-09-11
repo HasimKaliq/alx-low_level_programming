@@ -6,12 +6,12 @@ main(void)
 for (val = 0; val < 10; val++)
 {
         putchar(val + '0');
-    }
-    int a;
-for (a = 'a'; a <= 'f'; a++) 
+}
+int lowerCase;
+for (lowerCase = 'a'; lowerCase <= 'f'; lowerCase ++)
 {
-        putchar(a);
-    }
-    putchar('\n');
+        putchar(lowerCase);
+}
+putchar('\n');
     return (0);
 }
