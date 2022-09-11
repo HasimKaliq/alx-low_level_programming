@@ -2,16 +2,17 @@
 int 
 main(void) 
 {
-    int val;
+int val;
 for (val = 0; val < 10; val++)
 {
         putchar(val + '0');
 }
-int lowerCase;
-for (lowerCase = 'a'; lowerCase <= 'f'; lowerCase ++)
+int alpha;
+char sixAlpha[] = "abcdef";
+for (alpha = 0; alpha <= 5; alpha++)
 {
-        putchar(lowerCase);
+        putchar(sixAlpha[alpha]);
 }
 putchar('\n');
-    return (0);
+return (0);
 }
