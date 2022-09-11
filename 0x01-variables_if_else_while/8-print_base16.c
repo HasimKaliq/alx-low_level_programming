@@ -2,12 +2,12 @@
 int
 main(void)
 {
-int val = 0;
-for (val = 0; val < 10; val++)
+int numVal;
+for (numVal = 0; numVal < 10; numVal++)
 {
-        putchar(val + '0');
+        putchar(numVal + '0');
 }
-int alpha = 0;
+int alpha;
 char sixAlpha[] = "abcdef";
 for (alpha = 0; alpha <= 5; alpha++)
 {
