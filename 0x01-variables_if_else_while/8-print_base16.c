@@ -8,9 +8,9 @@ for (val = 0; val < 10; val++)
         putchar(val + '0');
     }
     int a;
-for (val = 'a'; val <= 'f'; val++) 
+for (a = 'a'; a <= 'f'; a++) 
 {
-        putchar(val);
+        putchar(a);
     }
     putchar('\n');
     return (0);
