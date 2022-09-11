@@ -1,13 +1,13 @@
 #include <stdio.h>
-int 
-main(void) 
+int
+main(void)
 {
-int val;
+int = val;
 for (val = 0; val < 10; val++)
 {
         putchar(val + '0');
 }
-int alpha;
+int = alpha;
 char sixAlpha[] = "abcdef";
 for (alpha = 0; alpha <= 5; alpha++)
 {
