@@ -12,5 +12,6 @@ putchar(',');
 putchar(' ');
 }
 }
+printf('\n');
 return (0);
 }
