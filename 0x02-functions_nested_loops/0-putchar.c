@@ -6,7 +6,7 @@ char someText[] = "_putchar"
 int i;
 for (int i = 0; i <= 7; i++)
 {
-setOfCharacters = someText[i];
+char setOfCharacters = someText[i];
 _putchar('%c', setOfCharacters);
 }
 
