@@ -4,10 +4,10 @@ int main(void)
 {
 char someText[] = "_putchar"
 int i;
-for (int i = 0; i <= 7; i++)
+for (i = 0; i <= 7; i++)
 {
 char setOfCharacters = someText[i];
-_putchar('%c', setOfCharacters);
+_putchar('%s', setOfCharacters);
 }
 
 return (0);
