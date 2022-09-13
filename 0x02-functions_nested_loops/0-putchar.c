@@ -2,14 +2,11 @@
 #include "main.h"
 int main(void) 
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+int i;
+char someText[] = "_putchar"
+for (i = 0; i <=7; i++)
+{
+ _putchar('%d', someText[i] + '0');
+}
 return (0);
 }
