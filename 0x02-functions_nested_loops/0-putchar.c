@@ -3,12 +3,7 @@
 int main(void) 
 {
 char someText[] = "_putchar"
-int i;
-for (i = 0; i <= 7; i++)
-{
-char setOfCharacters = someText[i];
-_putchar('%s', setOfCharacters);
-}
 
+_putchar('%d', someText);
 return (0);
 }
