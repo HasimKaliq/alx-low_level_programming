@@ -3,10 +3,10 @@
 int main(void) 
 {
 int i;
-char someText[] = "_putchar"
+char someText[] = "_putchar";
 for (i = 0; i <=7; i++)
 {
- _putchar('%d', someText[i] + '0');
+ _putchar(someText[i]);
 }
 return (0);
 }
