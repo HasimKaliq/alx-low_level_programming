@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h
+#include "main.h"
 /*
  * The program below is intended to print the letters a-z
  * The code leaves in the method void print_alphabet(void)
