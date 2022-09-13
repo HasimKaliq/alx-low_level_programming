@@ -2,7 +2,14 @@
 #include "main.h"
 int main(void) 
 {
-char someText= "_putchar";
-_putchar('%s', someText);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return (0);
 }
