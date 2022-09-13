@@ -18,11 +18,3 @@ void print_alphabet(void)
   return;
 }
 }
-
-
-int main()
-{
-  print_alphabet();
-  _putchar('\n');
-  return (0);
-}
