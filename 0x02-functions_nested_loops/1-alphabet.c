@@ -8,13 +8,6 @@
  * main.h file.
 */
 
-void print_alphabet(void);
-int main()
-{
-  print_alphabet();
-  _putchar('\n');
-  return (0);
-}
 
 void print_alphabet(void)
 {
@@ -22,8 +15,14 @@ void print_alphabet(void)
   for (i = 'a'; i <= 'z'; i++)
 {
   _putchar(i);
+  return;
 }
 }
 
 
-
+int main()
+{
+  print_alphabet();
+  _putchar('\n');
+  return (0);
+}
