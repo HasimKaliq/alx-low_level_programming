@@ -8,12 +8,12 @@
 */
 int _islower(int c)
 {
-int asciiValue = "%d", c;
-if (asciiValue > 64 && asciiValue < 91)
+
+if (c > 64 && c < 91)
 {
 return (0);
 }
-else if (asciiValue > 96 && asciiValue < 123)
+else if (c > 96 && c < 123)
 {
 return (1);
 }
