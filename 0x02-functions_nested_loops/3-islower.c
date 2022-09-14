@@ -8,8 +8,7 @@
 */
 int _islower(int c)
 {
-char islower = c;
-int asciiValue = ("%d", islower);
+int asciiValue = ("%d", c);
 if (asciiValue > 64 && asciiValue < 91)
 {
 return (0);
