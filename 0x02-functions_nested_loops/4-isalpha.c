@@ -3,7 +3,7 @@
  * The program below is intended to return 1 if c is a lower
  * or upper case or letter and return 0 if it's not.
  * The code leaves in the method int _isalpha(int c)
- * it has a return type of int and a parameter of type int 
+ * it has a return type of int and a parameter of type int
  * This program below makes use of the
  * ASCII table to determine if the character entered
  * was a lowercase or an upper case character,
@@ -18,7 +18,6 @@
 int
 _isalpha(int c)
 {
-
 if ((c > 64 && c < 91) || (c > 96 && c < 123))
 {
 return (1);
