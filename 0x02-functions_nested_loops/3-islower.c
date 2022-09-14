@@ -8,7 +8,7 @@
 */
 int _islower(int c)
 {
-int asciiValue = ("%d", c);
+int asciiValue = "%d", c;
 if (asciiValue > 64 && asciiValue < 91)
 {
 return (0);
