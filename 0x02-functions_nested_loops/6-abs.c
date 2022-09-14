@@ -2,8 +2,10 @@
 
 
 /*
-* This program is meant to showcase how to get the absolute value of a number. without using any hader methods
-* The program simply takes a negative number and multiplies it by -1 causing the same value to appear but wih a +
+* This program is meant to showcase how to get the absolute value of a number.
+* without using any hader methods
+* The program simply takes a negative number and multiplies it by -1 
+causing the same value to appear but wih a +
 * And all positive numbers are returned as they are because they are already in their absolute value,
 * EDGE CASES: Decimal numbers, Fractions.
 */
@@ -20,5 +22,5 @@ else
 {
 return (n);
 }
-  return (0);
+return (0);
 }
