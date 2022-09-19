@@ -6,7 +6,7 @@ _puts(char *str)
 int i;
 for (i = 0; str[i]; i++)
 {
-_putschar(str[i]);
+_putchar(str[i]);
 }
-_putschar('\n');
+_putchar('\n');
 }
