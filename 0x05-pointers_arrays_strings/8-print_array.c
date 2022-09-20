@@ -5,17 +5,17 @@
 void
 print_array(int *arr, int size)
 {
-if(size == 0)
-
-else
-{
-int i = 0;
-while(i <= size)
-{
-printf("%d, ", arr[i]);
-i++;
-        
-}
-
-}
-}
+int i;
+for (i = 0; i < n; i++
+     {
+             if(size == 0) {
+                printf("%d", arr[0]);
+             }
+             else
+             {
+                     printf(", %d", arr[i]);
+             }
+     }
+     printf("\n");
+     
+     }
