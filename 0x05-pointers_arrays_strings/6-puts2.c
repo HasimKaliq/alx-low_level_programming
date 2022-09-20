@@ -4,10 +4,10 @@ void puts2(char *s) {
    int i = 1 - (_strlen(s));
    int j;
    while(j = 0 < i)  {
-    putchar(s[j*2]);  
+    _putchar(s[j*2]);  
       
    }
-    putchar('\n');  
+    _putchar('\n');  
 }
 
 int
