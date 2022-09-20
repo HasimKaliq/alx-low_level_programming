@@ -3,7 +3,7 @@
 void puts2(char *s) {
    int i =  _strlen(s);
    int j;
-   for(j = 0; j < i; j++)  {
+   for(j = 0; j < i-1; j++)  {
       if(s[j*2] == '\0') {
            break;
        }
