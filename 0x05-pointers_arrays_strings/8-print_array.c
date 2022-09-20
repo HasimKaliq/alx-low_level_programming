@@ -6,9 +6,7 @@ void
 print_array(int *arr, int size)
 {
 if(size == 0)
-{
-printf("Size cannot be zero");
-}
+
 else
 {
 int i = 0;
