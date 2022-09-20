@@ -2,7 +2,7 @@
 
 
 
-/* Write a function that prints a string, followed by a new line, to stdout. */
+/* Write a function that prints a string, in reverse, followed by a new line. */
 
 void
 print_rev(char *s)
@@ -13,4 +13,15 @@ while(i >= 0)
 _putchar(s[i]);
 i--;
 }
+}
+
+
+int
+_strlen(char *s)
+{
+int i;
+for (i = 0; s[i] != '\0'; i++)
+{}
+return (i);
+
 }
