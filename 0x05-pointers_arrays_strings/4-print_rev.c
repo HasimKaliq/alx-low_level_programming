@@ -11,7 +11,7 @@ int i = _strlen(s);
 i = i - 1;
 while(i >= 0)
 {
-i--;
+
 _putchar(s[i]);
 
 }
