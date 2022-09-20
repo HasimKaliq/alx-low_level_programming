@@ -5,13 +5,13 @@ puts2(char *s)
 {
 int i =  _strlen(s);
 int j;
-for(j = 0; j < i; j++)
+for (j = 0; j < i; j++)
 {
-if(s[j*2] == '\0')
+if (s[j * 2] == '\0')
 {
 break;
 }
-_putchar(s[j*2]);
+_putchar(s[j * 2]);
 }
 _putchar('\n');
 }
