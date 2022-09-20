@@ -2,10 +2,9 @@
 
 void puts2(char *s) {
    int i = 1 - (_strlen(s));
-   int j = 0;
-   while(j < i)  {
+   int j;
+   for(j = 0 < i; j++)  {
     _putchar(s[j*2]);  
-    j++;
    }
     _putchar('\n');  
 }
