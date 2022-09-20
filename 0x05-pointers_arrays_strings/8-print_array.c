@@ -17,5 +17,5 @@ else
 printf(", %d", arr[i]);
 }
 }
-printf("\n"); 
+printf("\n");
 }
