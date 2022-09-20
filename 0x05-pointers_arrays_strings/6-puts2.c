@@ -4,7 +4,10 @@ void puts2(char *s) {
    int i =  _strlen(s);
    int j;
    for(j = 0; j < i; j++)  {
-    _putchar(s[j*2]);  
+      if(s[i*2] == '\0') {
+           break;
+       }
+    _putchar(s[j*2]);
    }
     _putchar('\n');  
 }
