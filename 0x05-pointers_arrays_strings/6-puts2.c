@@ -1,7 +1,7 @@
 #include "main.h"
 
 void puts2(char *s) {
-   int i = (1 - _strlen(s));
+   int i =  _strlen(s);
    int j;
    for(j = 0; j < i; j++)  {
     _putchar(s[j*2]);  
