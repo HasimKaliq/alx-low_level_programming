@@ -5,7 +5,7 @@ void puts2(char *s) {
    int j;
    while(j = 0 < i)  {
     _putchar(s[j*2]);  
-      
+    j++;
    }
     _putchar('\n');  
 }
