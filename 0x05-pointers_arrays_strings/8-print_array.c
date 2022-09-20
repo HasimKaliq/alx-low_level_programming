@@ -7,7 +7,7 @@ print_array(int *arr, int size)
 {
 if(size == 0)
 {
-break;
+printf("Size cannot be zero");
 }
 else
 {
