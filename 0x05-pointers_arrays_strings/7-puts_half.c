@@ -1,4 +1,7 @@
-void puts_half(char *str)
+#include "main.h"
+
+void
+puts_half(char *str)
 {
 int length, n;
 
