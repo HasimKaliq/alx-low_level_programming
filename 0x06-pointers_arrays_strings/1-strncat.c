@@ -8,8 +8,8 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[srcIndex++])
 		dest_len++;
 
-	while(srcIndex = 0; <= size)
+	for(srcIndex = 0; src[srcIndex] && srcIndex < n; srcIndex++;)
 		dest[dest_len++] = src[srcIndex];
-        srcIndex++;
+        
 	return (dest);
 }
