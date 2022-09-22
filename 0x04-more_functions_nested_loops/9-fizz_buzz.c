@@ -21,9 +21,9 @@ else if(i % 5 == 0) {
 printf("Buzz ");
 continue;
 }
-        
+printf("%d ",i);    
 }
-printf("%d ",i);
+
         
 return (0);
 }
