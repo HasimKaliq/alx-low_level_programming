@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 
@@ -21,3 +22,8 @@ void fizzBuzz(){
         
     }
 } 
+int main(void) {
+    // Write C code here
+    fizzBuzz();
+    return (0);
+}
