@@ -8,7 +8,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[srcIndex++])
 		dest_len++;
 
-	for(srcIndex = 0; src[srcIndex] && srcIndex < n; srcIndex++;)
+	for(srcIndex = 0; src[srcIndex] && srcIndex < n; srcIndex++)
 		dest[dest_len++] = src[srcIndex];
         
 	return (dest);
