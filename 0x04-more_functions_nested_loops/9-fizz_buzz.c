@@ -1,10 +1,12 @@
-
+// Online C compiler to run C program online
 #include <stdio.h>
 
 
-void fizzBuzz(int n){
-    int i;
-    for(i = 1; i <= n; i++) {
+ 
+int main() {
+    // Write C code here
+     int i;
+    for(i = 1; i <= 100; i++) {
         if(i % 3 == 0) {
             printf("Fizz ");
             continue;
@@ -21,9 +23,5 @@ void fizzBuzz(int n){
         printf("%d ",i);
         
     }
-} 
-int main(void) {
-    // Write C code here
-    fizzBuzz(n);
     return (0);
 }
