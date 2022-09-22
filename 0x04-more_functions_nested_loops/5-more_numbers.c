@@ -1,18 +1,20 @@
 #include "main.h"
 
-void
-more_numbers(void)
+void more_numbers(void)
 {
-int i, j;
+int number1, number2;
 
-for (i = 0; i < 10; i++) 
+for (number1 = 0; number1 < 10; number1++)
 {
-for (j = 0; j <= 14; j++)
+for (number2 = 0; number2 <= 14; number2++)
+
 {
-if (j >= 10)
-_putchar((j / 10) + '0');
-_putchar((j % 10) + '0');
+if (number2 > 9)
+{
+_putchar((number2 / 10) + '0');
 }
+_putchar((number2 % 10) + '0');
 }
 _putchar(10);
+}
 }
