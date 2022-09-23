@@ -1,6 +1,7 @@
 #include "main.h"
 
-char *rot13(char *s)
+char
+*rot13(char *s)
 {
 	int stringCount, rotation;
 	char r1[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
