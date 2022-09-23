@@ -4,11 +4,13 @@
 void
 reverse_array(int *a, int n)
 {
-int start,end;
-for (end = n - 1; end > n/2; end--)
+int temp, counter;
+n = n - 1;
+counter = 0;
+while (counter <= n)
 {
-start = a[n - 1 - end];
-a[n - 1 - end] = a[end];
-a[end] = start;
+temp = a[counter];
+a[counter++] = a[n];
+a[n--] = temp;
 }
 }
