@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ * @s: a parameter of type char
  * The program printsout a string using recursion
  */
 void _puts_recursion(char *s)
