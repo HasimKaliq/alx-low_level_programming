@@ -2,12 +2,9 @@
 #include "main.h"
 
 /**
- * @s: a parameter of type char
- * The program prints out a string using recursion
-
- *  _puts_recursion -  prints a string, followed by a new line.
- * 
- */
+*  _puts_recursion -  prints a string, followed by a new line.
+* @s: string to print
+*/
 
 void _puts_recursion(char *s)
 {
