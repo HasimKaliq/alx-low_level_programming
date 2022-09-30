@@ -10,7 +10,7 @@ int length;
 int _strlen_recursion(char *s){
 /* The basecase */
 if(*s == '\0')
-    return length;
+    return (length);
 s++;
 length += 1;
 _strlen_recursion(s);
