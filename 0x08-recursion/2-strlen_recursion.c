@@ -6,14 +6,15 @@
 * @s: string to print
 */
 
- 
+int length;  
 int _strlen_recursion(char *s)
 {
 if (*s == '\0')
-return;
+return (length);
 
 s++;
+length++; 
 _strlen_recursion(s);
-return (s);
+return (length);
 }
 
