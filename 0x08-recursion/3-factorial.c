@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* factorial   -   find factorial of n.
+* factorial-find factorial of n.
 * @n: number
 * Return: factorial of number -1 if negative n
 */
@@ -13,5 +13,5 @@ if (n < 0)
 return (-1);
 else if (n == 0)
 return (1);
-return (n * factorial(n-1) );
+return (n * factorial(n-1));
 }
