@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* factorial(int n) - The function to return an int
+* factorial(int n) -  The function to return an int
 * @n: The number to which we need to get the factorial
 * Return: A return of the factorial
 */
