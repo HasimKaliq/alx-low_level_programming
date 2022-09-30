@@ -15,5 +15,4 @@ if(*s == '\0')
 s++;
 length += 1;
 _strlen_recursion(s);
-return(o); 
-}
+
