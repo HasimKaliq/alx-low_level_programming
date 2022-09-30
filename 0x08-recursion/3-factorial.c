@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-* factorial(int n) -  returns an int.
-* @n: to find it's factorial.
-* Return: intger.
+* factorial - find factorial of n
+* @n: number
+* Return: factorial of number, -1 if negative n
 */
 
 int factorial(int n)
