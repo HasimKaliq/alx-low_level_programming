@@ -14,6 +14,6 @@ if(*s == '\0')
     return (length);
 s++;
 length += 1;
-int _strlen_recursion(s);
-
+_strlen_recursion(s);
+return(o); 
 }
