@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
     else if(argc - 1 == 2) {
         for(i = 1; i < argc-1; i++) {
             int multiplaction = atoi(argv[i]) * atoi(argv[i+1]);
-            printf("%d", multiplaction);
+            printf("%d\n", multiplaction);
         }
     }
     return (0);
