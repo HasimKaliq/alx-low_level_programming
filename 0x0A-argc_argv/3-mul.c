@@ -13,5 +13,5 @@ int main(int argc, char* argv[])
             printf("%d\n", multiplaction);
         }
     }
-    return (0);
+    return (1);
 }
