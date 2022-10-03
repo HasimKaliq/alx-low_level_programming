@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* main - expects a return of type int
-* @argc: counter for argunments passed
-* @argv: an arrray that holds the arg
-* Return: return an int.
+* main - print number of arguments passed to program
+* @argc: argument counter
+* @argv: pointer to array of arguments
+* Return: 0 on success
 */
 
 int main(int argc, char* argv[])
