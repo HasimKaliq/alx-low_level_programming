@@ -1,12 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
-* main - expects a return of int
-* @argc: an argument counter
-* @argv: an array for storing the arguments
-* Return: return 0 if successful 1 if not
-*/
+
 
 int
 main(int argc, char* argv[])
