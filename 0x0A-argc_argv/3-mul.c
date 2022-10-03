@@ -6,6 +6,7 @@ int main(int argc, char* argv[])
     int i;
     if(argc - 1 < 2) {
         printf("Error");
+        return (1);
     }
     else if(argc - 1 == 2) {
         for(i = 1; i < argc-1; i++) {
@@ -13,5 +14,5 @@ int main(int argc, char* argv[])
             printf("%d\n", multiplaction);
         }
     }
-    return (1);
+    return (0);
 }
