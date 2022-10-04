@@ -12,8 +12,10 @@ int main(int argc, char* argv[])
 {
 int i;
 if (argc - 1 < 2)
+{
 printf("Error\n");
 return (1);
+}
 else if (argc - 1 == 2)
 {
 for (i = 1; i < argc-1; i++)
