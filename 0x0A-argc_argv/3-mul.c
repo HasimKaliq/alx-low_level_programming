@@ -8,7 +8,7 @@
 * @argv: an array for storing the arguments
 * Return: return 0 if successful 1 if not
 */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 if (argc - 1 < 2)
 {
