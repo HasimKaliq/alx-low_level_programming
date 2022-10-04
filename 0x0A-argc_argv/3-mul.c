@@ -18,7 +18,7 @@ return (1);
 }
 else if (argc - 1 == 2)
 {
-int multiplaction = atoi(argv[0]) * atoi(argv[1]);
+int multiplaction = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", multiplaction);
 }
 return (0);
