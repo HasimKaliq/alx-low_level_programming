@@ -7,8 +7,8 @@
  * @c: character to be stored.
  * Return: an array
 */
-
-char *create_array(unsigned int size, char c)
+char
+*create_array(unsigned int size, char c)
 {
 char *s;
 unsigned int i;
