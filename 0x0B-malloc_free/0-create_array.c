@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /**
- * create_array = create and return a character(s)
- * @size: size of array
- * @c: character to be stored.
- * Return: an array
+   * create_array = create and return a character(s)
+   * @size: size of array
+   * @c: character to be stored.
+   * Return: an array
 */
-char
-*create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 char *s;
 unsigned int i;
