@@ -27,6 +27,6 @@ char *_strdup(char *str) {
         i++;
             
     }            
-    return (new_memory);
     free(new_memory);
+    return (new_memory);   
 }
