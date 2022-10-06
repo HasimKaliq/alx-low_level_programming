@@ -11,7 +11,7 @@
 char *_strdup(char *str)
 {
 char *new_memory;
-int i, j, k;
+int i, j;
 int size = 13;
 new_memory = malloc(size * sizeof(char));
 if (new_memory == NULL || str == NULL)
