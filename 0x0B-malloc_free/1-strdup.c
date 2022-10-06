@@ -17,7 +17,7 @@ if (str == NULL)
 return (NULL);
 }
 for (i = 0; str[i]; i++)
-     ;
+;
 i++;
 new_memory = malloc(i * sizeof(char));
 if (new_memory == NULL)
