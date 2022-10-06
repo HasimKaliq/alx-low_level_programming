@@ -18,7 +18,7 @@ if (new_memory == NULL || str == NULL)
 {
 return (NULL);
 }
-for(i = 0; i < str[i]; i++);
+for(i = 0; str[i]; i++);
 for(j = 0; j < 1; j++)
 {
 new_memory[j] = str[j];
