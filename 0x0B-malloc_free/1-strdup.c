@@ -16,7 +16,6 @@ char *_strdup(char *str) {
     char *new_memory;
     int i = 0;
     int size = 13;
-    int str_size = sizeof(str);
     new_memory = malloc(size * sizeof(char));
     
     if(new_memory == NULL || str == NULL) {
@@ -24,7 +23,7 @@ char *_strdup(char *str) {
     }
     
     
-    while (i < str_size){
+    while (i < (size*2)){
             new_memory[i] = str[i];
             i++;
         }           
