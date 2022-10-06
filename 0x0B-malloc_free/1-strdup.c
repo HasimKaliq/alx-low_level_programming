@@ -19,5 +19,5 @@ char *_strdup(char *str) {
     }
     else
         new_memory = str;
-    return (new_memory);
+    return (*new_memory);
 }
