@@ -19,7 +19,7 @@ if (new_memory == NULL || str == NULL)
 return (NULL);
 }
 for(i = 0; str[i]; i++)
-  i++;
+  i+=1;
 for(j = 0; j < 1; j++)
 {
 new_memory[j] = str[j];
