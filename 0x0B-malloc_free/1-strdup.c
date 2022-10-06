@@ -12,14 +12,13 @@ char *_strdup(char *str)
 {
 char *new_memory;
 int i, j;
-int size = 13;
-new_memory = malloc(size * sizeof(char));
+for (i = 0; str[i]; i++);
+i++;
+new_memory = malloc(i * sizeof(char));
 if (new_memory == NULL || str == NULL)
 {
 return (NULL);
 }
-for (i = 0; str[i]; i++);
-
 for (j = 0; j <= i; j++){
      new_memory[j] = str[j];
 }
