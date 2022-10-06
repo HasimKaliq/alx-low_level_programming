@@ -22,8 +22,8 @@ char *_strdup(char *str) {
     }
     
     
-    while (*str != '\0'){
-        new_memory[i] = *str;
+    while (str[i] != '\0'){
+        new_memory[i] = str[i];
         i++;
             
     }            
