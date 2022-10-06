@@ -18,12 +18,10 @@ if (new_memory == NULL || str == NULL)
 {
 return (NULL);
 }
-for (i = 0; str[i]; i++)
-{
+for (i = 0; str[i]; i++);
 
-  for (j = 0; j <= i; j++){
+for (j = 0; j <= i; j++){
      new_memory[j] = str[j];
-}
 }
 return (new_memory);
 free(new_memory);
