@@ -21,7 +21,7 @@ return (NULL);
 for(i = 0; str[i]; i++)
 {
 
-  for(j = 0; j < 1; j++){
+  for(j = 0; j < i; j++){
      new_memory[j] = str[j];
 }
 }
