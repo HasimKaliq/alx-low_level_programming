@@ -21,9 +21,9 @@ return (NULL);
 }
 else
 {
-while (str != '\0')
+while (*str != '\0')
 {
-new_memory[i] = str;
+new_memory[i] = *str;
 i++;
 }
 }
