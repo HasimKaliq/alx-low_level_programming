@@ -11,17 +11,17 @@
 char *_strdup(char *str)
 {
 char *new_memory;
-int i = 0;
+int i, j;
 int size = 13;
 new_memory = malloc(size * sizeof(char));
 if (new_memory == NULL || str == NULL)
 {
 return (NULL);
 }
-while (i <= size)
+for(i = 0; i < str[i]; i++);
+for(j = 0; j < 1; j++)
 {
-new_memory[i] = str[i];
-i++;
+new_memory[j] = str[j];
 }
 return (new_memory);
 free(new_memory);
