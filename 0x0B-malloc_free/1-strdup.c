@@ -23,7 +23,7 @@ char *_strdup(char *str) {
     }
     
     
-    while (i < (size*2)){
+    while (i <= size){
             new_memory[i] = str[i];
             i++;
         }           
