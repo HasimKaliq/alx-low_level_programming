@@ -16,15 +16,15 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (i = 0; str[i]; i++);
+for (i = 0; str[i]; i++)
+     ;
 i++;
 new_memory = malloc(i * sizeof(char));
 if (new_memory == NULL)
-{
 return (NULL);
-}
-for (j = 0; j <= i; j++){
-     new_memory[j] = str[j];
+for (j = 0; j <= i; j++)
+{
+new_memory[j] = str[j];
 }
 return (new_memory);
 free(new_memory);
