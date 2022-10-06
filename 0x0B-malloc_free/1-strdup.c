@@ -10,15 +10,23 @@
  * On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available
 */
 
-
 char *_strdup(char *str) {
-    char *new_memory;
-    new_memory = (char*)malloc(400 * sizeof(char));
-    if(new_memory == NULL || str == NULL) {
-        return (NULL);
-    }
-    else
-        new_memory = str;
-    return (new_memory);
-    free(new_memory);
+
+char *new_memory;
+int i = 0;
+new_memory = (char*)malloc(100 * sizeof(char));
+if(new_memory == NULL || str == NULL)
+{
+return (NULL);
+}
+else
+{
+while (str != '\0')
+{
+new_memory[i] = str;
+i++;
+}
+}
+return (new_memory);
+free(new_memory);
 }
