@@ -23,15 +23,9 @@ char *_strdup(char *str) {
     
     
     while (str[i] != '\0'){
-        
-       if(new_memory[i] == NULL) {
-          new_memory = (char*)malloc(13 * sizeof(char));
-    }
-       else {
             new_memory[i] = str[i];
             i++;
-        }
-    }            
+        }           
     return (new_memory);   
     free(new_memory);
 }
