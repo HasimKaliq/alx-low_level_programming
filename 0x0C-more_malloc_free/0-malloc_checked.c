@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
- * malloc_checked = returns an address
- * @b: parameter of type unsigned int
- * Returns: a pointer to the allocated memory
+ * malloc_checked - allocates memory using malloc
+ * @b: number of bytes to be malloced
+ * Return: returns a void pointer
  */
 
 void *malloc_checked(unsigned int b)
