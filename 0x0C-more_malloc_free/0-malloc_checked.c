@@ -11,6 +11,9 @@
 void *malloc_checked(unsigned int b) 
 {
     unsigned int *memory;
+    if(b == NULL) {
+        return (NULL);
+    }
     memory = malloc(b * sizeof(unsigned int));
     if(memory == NULL) {
         return (98);
