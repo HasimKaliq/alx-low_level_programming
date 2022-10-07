@@ -15,6 +15,6 @@ if (b == 0)
 return (NULL);
 memory = malloc(b);
 if (memory == 0)
-exit (98);
+exit(98);
 return (memory);
 }
