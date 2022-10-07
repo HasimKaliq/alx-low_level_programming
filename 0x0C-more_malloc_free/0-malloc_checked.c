@@ -11,11 +11,11 @@
 void *malloc_checked(unsigned int b) 
 {
     int *memory;
-    if(b == NULL) {
+    if(b == 0) {
         return (NULL);
     }
     memory = malloc(sizeof(b));
-    if(memory == NULL) {
+    if(memory == 0) {
         exit (98);
     }
     return (memory);
