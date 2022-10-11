@@ -2,5 +2,5 @@
 
 
     /* code */
-    printf("Executable name: %s\n", argv[0]);
+    printf("Executable name: %s\n", __FILE__);
    
