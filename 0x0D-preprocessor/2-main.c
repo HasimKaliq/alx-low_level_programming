@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
-    /* code */
-    printf("Executable name: %s\n", __FILE__);
-   
+int main(int argc, char *argv[]) {
+	printf("program's name is: %s\n",argv[0]);
+	return 0;
+}
