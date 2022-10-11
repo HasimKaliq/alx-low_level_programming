@@ -7,7 +7,8 @@
  * Return: returns 0 if success else 1
 */
 
-int main(int __attribute__ ((unused)) argc, char __attribute__ ((unused)) *argv[])
+int
+main(int __attribute__ ((unused)) argc, char __attribute__ ((unused)) *argv[])
 {
 	printf("%s\n", __FILE__);
 	return (0);
