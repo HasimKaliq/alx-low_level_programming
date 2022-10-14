@@ -14,8 +14,7 @@ va_list args;
 
 if (n == 0)
 return (0);
-/** va_start gets the first compulsory argunment va_start
-*(args, n == is the varibale for the compulsory) */
+/** va_start gets the first compulsory argunment va_start */
 va_start(args, n);
 
 /* var_args this takes in all the argunments and the data type. */
