@@ -2,6 +2,6 @@
 
 #define VARIDIC_FUNC_H
 
-#define sum_them_all(const unsigned int n, ...)
+#define sum_them_all(n, ...)
 
 #endif
