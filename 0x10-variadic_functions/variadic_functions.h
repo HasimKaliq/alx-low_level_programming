@@ -1,7 +1,6 @@
-#ifndef VARIDIC_FUNC_H
+#ifndef VARIDIC_FUNCTION_H
+#define VARIDIC_FUNCTION_H
 
-#define VARIDIC_FUNC_H
-
-#define sum_them_all(n)
+int sum_them_all(const unsigned int n, ...);
 
 #endif
