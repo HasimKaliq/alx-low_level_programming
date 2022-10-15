@@ -5,10 +5,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
     
     unsigned int i;    
     va_list args;
-    if(separator == '\0') {
-
+    if(*separator == '\0') {
+        *separator = ' ';
     }
-    //get the first compulsory arguemt
     va_start(args, n);
 
     for(i = 0; i < n; i++) {
