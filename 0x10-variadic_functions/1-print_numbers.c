@@ -12,8 +12,11 @@ va_list args;
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
-int numbers = va_arg(args, int);
-printf("%c %d", *separator, numbers);
+int numbers = ;
+if((seperator && i != n - 1)
+printf("%d %c", va_arg(args, int), separator);
+else
+seperator = "";
 }
 printf("\n");
 }
