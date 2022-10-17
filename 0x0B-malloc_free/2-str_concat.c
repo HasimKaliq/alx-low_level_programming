@@ -1,5 +1,13 @@
 #include <stdlib.h>
 
+
+/**
+ * str_concat - the function return an address of a concatinated string
+ * @s1: first character
+ * @s2: second character
+ * Return: the address of the new memory   
+ */
+
 char *str_concat(char *s1, char *s2)
 {
     char *memory;
