@@ -24,13 +24,14 @@ s2 = "";
 }
 
 for (i = 0; s1[i] != '\0'; i++);
+
 memory = malloc(sizeof(char));
 
 if (memory == NULL)
 {
 return (NULL);
 }
-    
+
 for (counter = 0; s1[counter] != '\0'; counter++)
 {
 memory[counter] = s1[counter];
@@ -42,7 +43,9 @@ for (counter = 0; s2[counter] != '\0'; counter++)
 memory[i] = s2[counter];
 i++;
 }
+
 memory[i] = '\0';
+
 return (memory);
 }
 
