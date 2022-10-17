@@ -5,13 +5,13 @@ int **alloc_grid(int width, int height){
        return (NULL);
     }
 
-    unsigned int *memory;
+     int *memory;
     int outer,inner;
-    memory = malloc(sizeof(unsigned int));
+    memory = malloc(sizeof(int));
     if(memory == NULL) {
         return (NULL);
     }
-    memory = unsigned int doubleArr[width][height];
+    memory =  int doubleArr[width][height];
 
     for(outer = 0; outer < width; outer++) {
         for(inner = 1; inner < height; inner++) {
