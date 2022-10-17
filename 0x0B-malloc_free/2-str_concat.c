@@ -24,7 +24,7 @@ s2 = "";
 }
 
 for (i = 0; s1[i] != '\0'; i++);
-
+  
 memory = malloc(sizeof(char));
 
 if (memory == NULL)
