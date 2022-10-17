@@ -22,8 +22,8 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-for (i = 0; s1[i] != '\0'; i++); 
-memory = malloc(sizeof(char));
+for (i = 0; s1[i] != '\0'; i++);
+memory = malloc(sizeof(char) + 11);
 
 if (memory == NULL)
 {
@@ -43,7 +43,6 @@ i++;
 }
 
 memory[i] = '\0';
-
 return (memory);
 }
 
