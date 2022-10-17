@@ -1,6 +1,8 @@
+#include <stdlib.h>
+
 int **alloc_grid(int width, int height){
     if((width <= 0) || (height <= 0)) {
-        printf("One of them is <= 0");
+       return (NULL);
     }
 
     int *memory;
