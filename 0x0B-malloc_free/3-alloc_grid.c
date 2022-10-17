@@ -7,6 +7,7 @@ int **alloc_grid(int width, int height){
 
      int *memory;
     int outer,inner;
+    int multiArr[width][height];
     memory = malloc(width * height * sizeof(int));
     if(memory == NULL) {
         return (NULL);
@@ -14,7 +15,7 @@ int **alloc_grid(int width, int height){
 
     for(outer = 0; outer < width; outer++) {
         for(inner = 1; inner < height; inner++) {
-            memory[outer][inner] = 0;
+            memory =  multiArr[outer][inner] = 0;
         }
     }
 }
