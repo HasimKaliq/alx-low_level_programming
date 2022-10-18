@@ -1,9 +1,10 @@
 #include <stdlib.h>
 
 int **alloc_grid(int width, int height){
+     int arr[width][height];
     int *memory;
     int outer,inner;
-    int arr[width][height];
+   
     
     if((width <= 0) || (height <= 0)) {
         return (NULL);
