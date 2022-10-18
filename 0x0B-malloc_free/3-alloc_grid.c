@@ -4,9 +4,7 @@ int **alloc_grid(int width, int height){
   
     int *memory;
     int outer,inner;
-    int const conwidth = *width;
-     int const conhieght = *height;
-     int arr[conwidth][conheight];
+    int arr[width][height];
     
     if((width <= 0) || (height <= 0)) {
         return (NULL);
