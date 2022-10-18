@@ -14,10 +14,10 @@ int **alloc_grid(int width, int height){
     if(memory == NULL){
         return (NULL);
     }
-    
+    memory = &arr;
     for(outer = 0; outer < width; outer++) {
         for(inner = 0; inner < height; inner++) {
-           arr[outer][inner] = 0;
+           *memory[outer][inner] = 0;
         }
     }
     
