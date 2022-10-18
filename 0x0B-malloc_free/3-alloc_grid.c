@@ -5,5 +5,9 @@ int **alloc_grid(int width, int height){
         return (NULL);
     }
     int *memory;
+    memory = malloc(sizeof(int));
+    if(memory == NULL){
+        return (NULL);
+    }
 return (0);
 }
