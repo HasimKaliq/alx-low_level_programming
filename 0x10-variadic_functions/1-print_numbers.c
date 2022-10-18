@@ -4,7 +4,6 @@
  * @separator: separator string
  * @n: number of arguments
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
     
@@ -13,13 +12,13 @@ va_list args;
 va_start(args, n);
 
     
-if(*seperator != NULL)
+if(separator != NULL)
 {
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(args, int));
 if(i != n-1) {
-    printf("%c",*separator);
+    printf("%c", separator);
 }
 }
 
@@ -30,4 +29,5 @@ for (i = 0; i < n; i++)
 printf("%d", va_arg(args, int));
 }
 printf("\n");
+}
 }
