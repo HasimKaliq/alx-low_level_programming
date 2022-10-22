@@ -20,7 +20,7 @@ typedef struct list_s
 
 
 
-int print_list(const list_t *h) {
+size_t print_list(const list_t *h) {
     
     unsigned int numOfNode;
     if(h->str == NULL) {
