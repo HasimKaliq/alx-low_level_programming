@@ -20,7 +20,7 @@ typedef struct list_s
 
 
 
-inr print_list(const list_t *h) {
+int print_list(const list_t *h) {
     int count;
     if(h->str == NULL) {
         printf("[0] (nil)");
