@@ -26,7 +26,7 @@ int print_list(const list_t *h) {
         printf("[0] (nil)");
     }
 
-    int count = 0;
+    int count;
     while(h->next != NULL) {
         printf("[%d] %s\n", h->len, h->str);
         h = h->next;
