@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * @h: is a pointer of type list_t
- * list_len - prints num of elements of a list_t list.
- * Return - the number of elements.
-*/
+ * list_len - returns the number of elements in a linked list_t list
+ * @h: head of linked list
+ * Return: number of elements in list_t
+ */
 
 size_t list_len(const list_t *h)
 {
