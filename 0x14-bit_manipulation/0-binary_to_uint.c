@@ -1,4 +1,6 @@
 
+#include "main.h"
+
 unsigned int core(unsigned int base, unsigned int exp) {
     
     
