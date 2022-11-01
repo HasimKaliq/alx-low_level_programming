@@ -33,14 +33,16 @@ unsigned int binary_to_uint(const char *b)
     while (i < value)
     {
         /* code */
-        if(b[i] != '0' && b[i] != '1'){break;}
+        if(b[i] != '0' && b[i] != '1')
+        {
+            return(0);
+        }
         i++;
     }
     
     
     for(index = 0; b[index] != '\0'; index++) {
         if(b[index] != '0' && b[index] != '1' ){
-            break;
             return (0);
         }
         else {
