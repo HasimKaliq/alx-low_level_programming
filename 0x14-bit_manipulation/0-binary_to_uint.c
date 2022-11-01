@@ -2,8 +2,11 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-    unsigned int val = 0;
-    int i = 0;
+    unsigned int val;
+    int i;
+    
+    i = 0;
+    val = 0;
     /* A check if all the character at b are all 1's or 0's */    
     if (b == NULL)
         return (0);
