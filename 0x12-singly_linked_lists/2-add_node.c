@@ -8,14 +8,6 @@
 
 #include "lists.h"
 
-int _strlen(char *s) {
-    
-    char *p = s;
-    while (*s)
-        s++;
-    return (s-p);
-}
-
 
 list_t *add_node(list_t **head, const char *str)
 {
@@ -30,7 +22,6 @@ list_t *add_node(list_t **head, const char *str)
     if(str_cpy == NULL)
         free(first_node);
         return (NULL);
-    first_node -> len = _strlen(str_cpy);    
     first_node -> str = str_cpy;
     first_node ->next = *head;
     *head = first_node;
