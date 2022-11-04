@@ -11,16 +11,23 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-    list_t *first_node;
-    first_node = malloc(sizeof(list_t));
+	list_t *newNode;
+	char *newStr;
 
-    if(first_node == NULL) {
-        return (NULL);
-    }
-    first_node -> str = strdup(str);
-    first_node ->next = *head;
-    *head = first_node;
-
-    return (head);
+	if (!str)
+		return (NULL);
+	newNode = malloc(sizeof(list_t));
+	if (!newNode)
+		return (NULL);
+	newStr = strdup(str);
+	if (!newStr)
+	{
+		free(newNode);
+		return (NULL);
+	}
+	newNode->len = _strlen(newStr);
+	newNode->str = newStr;
+	newNode->next = *head;
+	*head = newNode;
+	return (*head);
 }
-
