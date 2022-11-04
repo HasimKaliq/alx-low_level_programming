@@ -19,12 +19,8 @@ list_t *add_node(list_t **head, const char *str)
         return (NULL);
     }
     str_cpy = strdup(str);
-    if(str_cpy == NULL)
-        free(first_node);
-        return (NULL);
     first_node -> str = str_cpy;
     first_node ->next = *head;
     *head = first_node;
-
     return (head);
 }
