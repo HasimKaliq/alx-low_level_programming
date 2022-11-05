@@ -7,7 +7,8 @@
  */
 
 #include "lists.h"
-
+#include <stdlib.h>
+#include <string.h>
 unsigned int _strlen(char *str)
 {
 	unsigned int i;
