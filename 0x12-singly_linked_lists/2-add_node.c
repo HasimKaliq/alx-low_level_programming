@@ -22,8 +22,8 @@ return (NULL);
 
 dup = strdup(str);
 if (dup == NULL)
-free(new_node);
-return (NULL);
+  free(new_node);
+  return (NULL);
 for (count = 0; dup[count] != '\0'; count++);
 count++;
 
