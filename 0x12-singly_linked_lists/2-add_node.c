@@ -33,13 +33,14 @@ if(first_node == NULL)
     
 
 if(newstr == NULL)
-    return(NULL);
     free(first_node);
+    return(NULL);
     
 first_node -> len = _strlen(newstr);
 first_node -> str = newstr;
 first_node ->next = *head;
 *head = first_node;
-return (*head);
 free(first_node);
+return (*head);
+
 }
