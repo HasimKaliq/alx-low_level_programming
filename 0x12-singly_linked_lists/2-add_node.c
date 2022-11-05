@@ -42,5 +42,4 @@ first_node ->next = *head;
 *head = first_node;
 free(first_node);
 return (*head);
-
 }
