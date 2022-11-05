@@ -7,8 +7,8 @@
  */
 
 #include "lists.h"
-#include <stdlib.h>
-#include <string.h>
+
+
 unsigned int _strlen(char *str)
 {
 	unsigned int i;
@@ -40,5 +40,5 @@ list_t *add_node(list_t **head, const char *str)
     new_node->next = *head;
     
     *head = new_node;
-    return(new_node);
+    return(*head);
 }
