@@ -8,32 +8,29 @@
 
 #include "lists.h"
 
+int _strlen(char *s){
+    int i;
+    i = 0;
+    while(s[i] != '\0'){
+        ++i;
+    }
+    return (i);
+}
 
-// int _strlen(char *s){
-//     int i;
-//     i = 0;
-//     while(s[i] != '\0'){
-//         ++i;
-//     }
-//     return (i);
-// }
 
 list_t *add_node(list_t **head, const char *str)
 {
-  
-
-list_t *first_node;
-first_node = malloc(sizeof(list_t));
-
-if(first_node == NULL)
-  return (NULL);
+    list_t *new_node;
+    new_node = malloc(list_t);
     
-
-// first_node -> len = _strlen(str);
-first_node -> str = strdup(str);
-first_node ->next = *head;
-*head = first_node;
-free(first_node);
-return (*head);
-
+    if(new_node == NULL) {
+        return (NULL);
+    }
+    new_node -> str = strdup(str);
+    new_node -> len = _strlen(str);
+    new_node -> next = *head;
+    
+    *head = new_node;
+    return(*head);
+    free(new_node);
 }
