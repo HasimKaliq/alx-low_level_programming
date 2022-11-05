@@ -19,9 +19,9 @@ list_t *first_node;
 first_node = malloc(sizeof(list_t));
 
 if(first_node == NULL)
-return (NULL);
-first_node -> len = i;
+  return (NULL);
 first_node -> str = strdup(str);
+first_node -> len = i;
 first_node ->next = *head;
 *head = first_node;
 return (*head);
