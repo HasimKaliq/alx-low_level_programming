@@ -29,10 +29,6 @@ if(first_node == NULL)
   return (NULL);
     
 
-if(str == NULL)
-    free(first_node);
-    return(NULL);
-    
 // first_node -> len = _strlen(str);
 first_node -> str = strdup(str);
 first_node ->next = *head;
