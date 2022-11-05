@@ -20,6 +20,9 @@ int _strlen(char *s){
 
 list_t *add_node(list_t **head, const char *str)
 {
+    if(str == NULL){
+        return (NULL);
+    }
     list_t *new_node;
     new_node = malloc(list_t);
     
@@ -27,10 +30,13 @@ list_t *add_node(list_t **head, const char *str)
         return (NULL);
     }
     new_node -> str = strdup(str);
-    new_node -> len = _strlen(str);
+    if(new_node -> str == NULL) {
+        free(new_node);
+        return(NULL);
+    }
+    new_node -> len = _strlen(new_node -> str);
     new_node -> next = *head;
     
     *head = new_node;
     return(*head);
-    free(new_node);
 }
