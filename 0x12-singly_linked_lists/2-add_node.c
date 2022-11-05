@@ -9,14 +9,14 @@
 #include "lists.h"
 
 
-int _strlen(char *s){
-    int i;
-    i = 0;
-    while(s[i] != '\0'){
-        ++i;
-    }
-    return (i);
-}
+// int _strlen(char *s){
+//     int i;
+//     i = 0;
+//     while(s[i] != '\0'){
+//         ++i;
+//     }
+//     return (i);
+// }
 
 list_t *add_node(list_t **head, const char *str)
 {
@@ -33,7 +33,7 @@ if(str == NULL)
     free(first_node);
     return(NULL);
     
-first_node -> len = _strlen(str);
+// first_node -> len = _strlen(str);
 first_node -> str = strdup(str);
 first_node ->next = *head;
 *head = first_node;
