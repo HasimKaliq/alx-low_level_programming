@@ -31,5 +31,6 @@ new_node->str = dup;
 new_node->len = count;
 new_node->next = *head;
 *head = new_node;
+free(new_node);
 return(new_node);
 }
