@@ -25,7 +25,7 @@ free(new_node);
 return (NULL);
 }
 for (count = 0; str[count] != '\0'; count++)
-  ;
+;
 new_node->str = dup;
 new_node->len = count;
 new_node->next = *head;
