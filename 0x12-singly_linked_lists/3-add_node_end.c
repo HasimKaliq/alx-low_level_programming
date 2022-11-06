@@ -22,13 +22,13 @@ dup = strdup(str);
 if (dup == NULL)
 {
 free(end_node);
-return(NULL);
+return (NULL);
 }
-for(count = 0; str[count] != '\0'; count++);
+for (count = 0; str[count] != '\0'; count++);
 end_node->str = dup;
 end_node->len = count;
 end_node->next = NULL;
-if(*head == NULL)
+if (*head == NULL)
 {
 *head = end_node;
 return (*head);
