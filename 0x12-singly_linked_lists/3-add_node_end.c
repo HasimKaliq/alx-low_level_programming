@@ -37,5 +37,6 @@ while (last->next != NULL)
 {
 last->next = end_node;
 }
+
 return (end_node);
 }
