@@ -25,7 +25,7 @@ free(end_node);
 return (NULL);
 }
 for (count = 0; str[count] != '\0'; count++)
-  ;
+;
 end_node->str = dup;
 end_node->len = count;
 end_node->next = NULL;
