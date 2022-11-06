@@ -26,14 +26,14 @@ return (NULL);
 }
 for (count = 0; str[count] != '\0'; count++)
 ;
-end_node->str = dup;
-end_node->len = count;
-end_node->next = NULL;
 if (*head == NULL)
 {
 *head = end_node;
 return (*head);
 }
+end_node->str = dup;
+end_node->len = count;
+end_node->next = NULL;
 while (last->next != NULL)
 {
 last->next = end_node;
