@@ -13,9 +13,9 @@ char *dup;
 int count;
 list_t *last;
 end_node = malloc(sizeof(list_t));
-if(end_node == NULL)
+if (end_node == NULL)
 {
-return (NULL);    
+return (NULL);
 }
 last = *head;
 dup = strdup(str);
@@ -32,12 +32,10 @@ if(*head == NULL)
 {
 *head = end_node;
 return (*head);
-}  
- 
+}
 while (last->next != NULL)
 {
 last->next = end_node;
 }
-
 return (end_node);
 }
