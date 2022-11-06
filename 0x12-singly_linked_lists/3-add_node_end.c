@@ -24,14 +24,14 @@ if (dup == NULL)
 free(end_node);
 return(NULL);
 }
-for(count = 0; str[count] != '\0'; count++);   
+for(count = 0; str[count] != '\0'; count++);
+new_node->str = dup;
+new_node->len = count;
+new_node->next = NULL;
 while (last->next != NULL)
 {
-last = last->next;
+last->next = new_node;
 }
-last = new_node;
-last->str = dup;
-last->len = count;
-last->next = NULL;
-return (last);
+
+return (new_node);
 }
