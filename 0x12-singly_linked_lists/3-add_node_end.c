@@ -25,13 +25,13 @@ free(end_node);
 return(NULL);
 }
 for(count = 0; str[count] != '\0'; count++);
-new_node->str = dup;
-new_node->len = count;
-new_node->next = NULL;
+end_node->str = dup;
+end_node->len = count;
+end_node->next = NULL;
 while (last->next != NULL)
 {
-last->next = new_node;
+last->next = end_node;
 }
 
-return (new_node);
+return (end_node);
 }
