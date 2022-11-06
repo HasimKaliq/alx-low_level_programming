@@ -25,17 +25,15 @@ free(end_node);
 return(NULL);
 }
 for(count = 0; str[count] != '\0'; count++);
-if(*head == NULL)
-{
-*head = end_node;
-head -> str = dup;
-head -> len = count;
-head -> next = NULL;
-return (*head);
-}
 end_node->str = dup;
 end_node->len = count;
 end_node->next = NULL;
+if(*head == NULL)
+{
+*head = end_node;
+return (*head);
+}  
+ 
 while (last->next != NULL)
 {
 last->next = end_node;
