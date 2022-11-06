@@ -29,6 +29,7 @@ while (last->next != NULL)
 {
 last = last->next;
 }
+last = new_node;
 last->str = dup;
 last->len = count;
 last->next = NULL;
