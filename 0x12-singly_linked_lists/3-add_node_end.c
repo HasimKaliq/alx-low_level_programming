@@ -36,8 +36,8 @@ return (*head);
 }
 while (last->next != NULL)
 {
-last->next = end_node;
+last = last->next;
 }
-
+last->next = end_node;
 return (end_node);
 }
