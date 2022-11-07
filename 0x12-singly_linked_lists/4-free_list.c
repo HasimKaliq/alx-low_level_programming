@@ -15,11 +15,11 @@ while (head != NULL)
 {
 if (head->str == NULL)
 {
-return (NULL);
+return;
 }
 if (head->Len == NULL)
 {
-return (NULL);
+return;
 }
 temp = head->next;
 free(temp);
