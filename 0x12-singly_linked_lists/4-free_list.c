@@ -6,16 +6,16 @@
 */
 
 void free_list(list_t *head){
-list_t *temp;
+list_t *p, *pnext;
+p = head;
 if (head == NULL)
 {
 return;
 } 
-if (head != NULL)
+if (p != NULL)
 {
-temp = head;
-head = head->next;
-free(temp);
+pnext = p->next;
+free(p);
+p = pnext;
 }
-free(head);
 }
