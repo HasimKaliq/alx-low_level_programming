@@ -13,6 +13,10 @@ return;
 } 
 while (head != NULL)
 {
+if (head->str == NULL || head->len == NULL)
+{
+return;
+}
 temp = head->next;
 free(temp);
 }
