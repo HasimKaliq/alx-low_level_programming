@@ -1,4 +1,4 @@
-See#include "lists.h"
+#include "lists.h"
 #include <string.h>
 /**
  * free_list - free the nodes in the list
@@ -6,7 +6,7 @@ See#include "lists.h"
 */
 
 void free_list(list_t *head){
-list_t temp;
+list_t *temp;
 if (head == NULL)
 {
 return(NULL);
