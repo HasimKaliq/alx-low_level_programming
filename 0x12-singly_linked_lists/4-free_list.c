@@ -13,7 +13,7 @@ return;
 } 
 while (head != NULL)
 {
-if (head->str == NULL || head->len == NULL)
+if (head->str == NULL)
 {
 return;
 }
