@@ -13,14 +13,6 @@ return;
 } 
 while (head != NULL)
 {
-if (head->str == NULL)
-{
-return;
-}
-if (head->Len == NULL)
-{
-return;
-}
 temp = head->next;
 free(temp);
 }
