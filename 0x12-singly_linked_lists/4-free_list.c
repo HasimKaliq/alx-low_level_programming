@@ -16,11 +16,7 @@ while (head->next != NULL)
 temp = head;
 head = head->next;
 free(temp);
-if(head->next = NULL)
-{
-free(head);
-}
-if(head->str == NULL)
+if(temp->next == NULL)
 {
 free(head);
 }
