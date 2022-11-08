@@ -25,9 +25,5 @@ if(head->str == NULL)
 {
 free(head);
 }
-if(head->len == NULL)
-{
-free(head);
-}
 }
 }
