@@ -11,7 +11,7 @@ if (head == NULL)
 {
 return;
 } 
-while (head->next != NULL)
+while (head->next->next != NULL)
 {
 temp = head;
 head = head->next;
