@@ -12,12 +12,10 @@ while (head != NULL)
 temp = head;
 head = head->next;
 temp->str = NULL;
-temp -> len = NULL;
 free(temp);
 if(head == NULL)
 {
 head->str = NULL;
-head->len = NULL;
 free(head);
 }
 }
