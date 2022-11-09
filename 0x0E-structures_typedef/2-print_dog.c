@@ -17,13 +17,13 @@ printf("(nil)\n");
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 }
-if(d->age == 0x00)
+if(!d->age)
 {
 printf("Name: %s\n", d->name);
 printf("(nil)\n");
 printf("Owmer: %s\n", d->owner);
 }
-if(d->owner == NULL)
+if(!d->owner )
 {
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
