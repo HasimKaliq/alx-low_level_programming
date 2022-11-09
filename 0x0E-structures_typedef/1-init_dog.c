@@ -1,4 +1,4 @@
-
+#include "dog.h"
 /**
  * d - is a pointer of type dog type struct
  * @name: is a varible of type char
