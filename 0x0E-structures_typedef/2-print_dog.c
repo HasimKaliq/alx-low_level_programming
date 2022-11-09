@@ -11,7 +11,7 @@ if(d == NULL)
 {
 return;
 }
-if(!d->name)
+if(!(d->name))
 {
 printf("(nil)\n");
 printf("Age: %f\n", d->age);
