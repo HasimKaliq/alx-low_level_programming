@@ -14,7 +14,7 @@ printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 }
 
-if(d->age == NULL)
+if(d->age == 0)
 {
 printf("Name: %s\n", d->name);
 printf("(nil)\n");
