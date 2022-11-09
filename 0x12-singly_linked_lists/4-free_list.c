@@ -12,6 +12,7 @@ while (current != NULL)
 {
 next = current->next;
 free(current->str);
+free(current->len);
 free(current);
 current = next;
 }
