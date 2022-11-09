@@ -11,12 +11,8 @@ while (head != NULL)
 {
 temp = head;
 head = head->next;
-free(temp->str);
+free(head->str);
 free(temp);
-if (head->next == NULL)
-{
-free(head);
-}
 }
 head = NULL;
 }
