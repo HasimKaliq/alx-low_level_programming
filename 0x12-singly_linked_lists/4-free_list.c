@@ -18,4 +18,5 @@ if (head->next == NULL)
 free(head);
 }
 }
+head = NULL;
 }
