@@ -5,17 +5,17 @@ void print_dog(struct dog *d)
 {
 if(d->name == NULL)
 {
-printf("nil");
+printf("nil\n");
 }
 if(d->age == NULL)
 {
-printf("nil");
+printf("nil\n");
 }
 if(d->owner == NULL)
 {
-printf("nil");
+printf("nil\n");
 }
-printf("Name: %s", d->name);
-printf("Age: %f", d->age);
-printf("Owmer: %s", d->owner);
+printf("Name: %s\n", d->name);
+printf("Age: %f\n", d->age);
+printf("Owmer: %s\n", d->owner);
 }
