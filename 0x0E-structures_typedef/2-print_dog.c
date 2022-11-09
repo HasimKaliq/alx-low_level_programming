@@ -29,7 +29,10 @@ printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 printf("(nil)\n");
 }
+else
+{
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 }
+}  
