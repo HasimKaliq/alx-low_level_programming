@@ -1,5 +1,5 @@
 #ifndef DOG_H
-#DOG_H
+#define DOG_H
 /**
 * struct dog - is a struct of type doog
 * @name: is a varible of type char
