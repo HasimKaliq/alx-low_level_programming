@@ -29,7 +29,7 @@ printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 printf("(nil)\n");
 }
-if (flag == 1)
+if (d)
 {
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
