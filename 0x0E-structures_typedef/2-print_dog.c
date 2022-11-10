@@ -11,13 +11,13 @@ if(d == NULL)
 {
 return;
 }
-if(d->name == NULL)
+if(!(d->name))
 {
 printf("(nil)\n");
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 }
-if(d->age == NULL)
+if(!(d->age))
 {
 printf("Name: %s\n", d->name);
 printf("(nil)\n");
@@ -28,14 +28,5 @@ if(!(d->owner))
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 printf("(nil)\n");
-}
-if (d->name != NULL && d->owner != NULL)
-{
-if (d->age > 0)
-{
-printf("Name: %s\n", d->name);
-printf("Age: %f\n", d->age);
-printf("Owmer: %s\n", d->owner);
-}
 }
 }  
