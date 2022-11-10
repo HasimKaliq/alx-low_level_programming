@@ -15,7 +15,7 @@ return;
 }
 if (!(d->name))
 {
-printf("Name: (nil)\n");
+printf("(nil)\n");
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 flag = 0;
@@ -23,7 +23,7 @@ flag = 0;
 if (!(d->age))
 {
 printf("Name: %s\n", d->name);
-printf("Age: (nil)\n");
+printf("(nil)\n");
 printf("Owmer: %s\n", d->owner);
 flag = 0;
 }
@@ -31,7 +31,7 @@ if (!(d->owner))
 {
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
-printf("Owner: (nil)\n");
+printf("(nil)\n");
 flag = 0;
 }
 if (flag == 1)
