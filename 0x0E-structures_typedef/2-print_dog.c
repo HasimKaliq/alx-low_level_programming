@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdio.h>
 /**
- * d - is a pointer of type dog type struct
+ * @d: is a pointer variable of type dog type struct
 */
 
 
@@ -11,13 +11,13 @@ if(d == NULL)
 {
 return;
 }
-if(!(d->name))
+if(d->name == NULL)
 {
 printf("(nil)\n");
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 }
-if(!(d->age))
+if(d->age == NULL)
 {
 printf("Name: %s\n", d->name);
 printf("(nil)\n");
@@ -29,10 +29,13 @@ printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 printf("(nil)\n");
 }
-else
+if (d->name != NULL && d->owner != NULL)
+{
+if (d->age > 0)
 {
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
+}
 }
 }  
