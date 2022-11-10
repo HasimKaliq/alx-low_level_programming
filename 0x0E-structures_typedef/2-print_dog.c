@@ -15,27 +15,28 @@ return;
   
 switch(d)
 {
-case(!(d->name))
-  printf("(nil)\n");
-  printf("Age: %f\n", d->age);
-  printf("Owmer: %s\n", d->owner);
-  break;
-
-case(!(d->name))
-  printf("(nil)\n");
-  printf("Age: %f\n", d->age);
-  printf("Owmer: %s\n", d->owner);
-  break;
+	case(!(d->name))
+		printf("(nil)\n");
+		printf("Age: %f\n", d->age);
+		printf("Owmer: %s\n", d->owner);
+		break;
+	
+	case(!(d->name))
+		printf("(nil)\n");
+		printf("Age: %f\n", d->age);
+  		printf("Owmer: %s\n", d->owner);
+  		break;
   
-case(!(d->name))
-  printf("(nil)\n");
-  printf("Age: %f\n", d->age);
-  printf("Owmer: %s\n", d->owner);
-  break;
-  default:
-    printf("Name: %s\n", d->name);
-    printf("Age: %f\n", d->age);
-    printf("Owmer: %s\n", d->owner);
+	case(!(d->name))
+  		printf("(nil)\n");
+  		printf("Age: %f\n", d->age);
+  		printf("Owmer: %s\n", d->owner);
+  		break;
+ 	
+	default:
+   	 	printf("Name: %s\n", d->name);
+    		printf("Age: %f\n", d->age);
+  	  	printf("Owmer: %s\n", d->owner);
     
 }
 }
