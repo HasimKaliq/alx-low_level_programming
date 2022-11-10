@@ -1,7 +1,8 @@
 #include "dog.h"
 #include <stdio.h>
 /**
- * @d: is a pointer variable of type dog type struct
+ * print_dog - a function with which returns void
+ * @*d: is a pointer variable of type dog type struct
 */
 
 
