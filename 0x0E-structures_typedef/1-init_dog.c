@@ -1,6 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
+ * init_dog - a function with a void return type
  * d - is a pointer of type dog type struct
  * @name: is a varible of type char
  * @age: is a variable of type int
