@@ -8,8 +8,7 @@
 
 void print_dog(struct dog *d)
 {
-int flag;
-flag = 1;
+int flag = 1;
 if (d == NULL)
 {
 return;
