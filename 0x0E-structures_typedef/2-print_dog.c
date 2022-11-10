@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_dog - a function with which returns void
- * @*d: is a pointer variable of type dog type struct
+ * @d: is a pointer variable of type dog type struct
 */
 
 
