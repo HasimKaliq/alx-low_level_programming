@@ -7,7 +7,7 @@
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-struct *dog = d;
+struct dog *dog = malloc(sizeof(d));
 dog->name = d->name;
 dog->age = d->age;
 dog->owner = d->owner;
