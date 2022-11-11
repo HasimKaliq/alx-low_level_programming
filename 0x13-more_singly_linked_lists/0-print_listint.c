@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lists.h>
+#include "lists.h"
 
 size_t print_listint(const listint_t *h)
 {
@@ -8,7 +8,7 @@ size_t print_listint(const listint_t *h)
   
   if(h == NULL)
   {
-    return (NULL);
+    return;
   }
   while(temp != NULL)
   {
