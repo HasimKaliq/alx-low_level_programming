@@ -18,7 +18,7 @@ printf("(nil)\n");
 printf("Age: %f\n", d->age);
 printf("Owmer: %s\n", d->owner);
 }
-if (! (d->age) )
+if (d->age < 1)
 {
 printf("Name: %s\n", d->name);
 printf("(nil)\n");
