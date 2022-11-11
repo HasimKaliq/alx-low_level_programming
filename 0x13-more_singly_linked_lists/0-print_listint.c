@@ -6,13 +6,9 @@ size_t print_listint(const listint_t *h)
   int count;
   listint_t temp = h;
   
-  if(h == NULL)
-  {
-    return (h);
-  }
   while(temp != NULL)
   {
-    temp = h->next;
+    temp = temp->next;
     count++;
   }
   return (count);
