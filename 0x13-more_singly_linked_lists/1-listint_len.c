@@ -11,6 +11,7 @@ while (h)
 if(h->n  || h->next != NULL)
 {
 count++;
+h = h->next;
 }
 }
 return (count);
