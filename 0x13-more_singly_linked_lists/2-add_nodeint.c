@@ -13,6 +13,10 @@ if (new_node == NULL)
 {
 return (NULL);
 }
+if(!(n))
+{
+return (NULL);
+}
 new_node->n = n;
 new_node->next = *head;
 *head = new_node;
