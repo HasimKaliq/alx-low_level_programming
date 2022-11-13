@@ -13,7 +13,8 @@ if(*head == NULL)
 {
 new_node->n = n;
 new_node->next = NULL;
-return (new_node);
+*head = new_node;
+return (*head);
 }
 new_node->n = n;
 new_node->next = *head;
