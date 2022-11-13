@@ -11,9 +11,9 @@ return (NULL);
 }
 if (*head == NULL)
 {
+*head = new_node;
 new_node->n = n;
 new_node->next = NULL;
-*head = new_node;
 }
 new_node->n = n;
 new_node->next = *head;
