@@ -8,7 +8,7 @@ return (count);
 }
 while (h)
 {
-if(h->n || h->next)
+if(h->n  != NULL || h->next != NULL)
 {
 count++;
 }
