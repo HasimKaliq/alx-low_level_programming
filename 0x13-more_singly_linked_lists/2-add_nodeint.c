@@ -8,7 +8,8 @@ if(*head == NULL)
 {
 return (NULL);
 }
-listint_t *new_node = malloc(sizeof(listint_t));
+listint_t *new_node;
+*new_node = malloc(sizeof(listint_t));
 if (new_node == NULL)
 {
 return (NULL);
