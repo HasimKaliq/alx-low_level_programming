@@ -17,7 +17,7 @@ end_node->next = NULL;
 if (temp == NULL)
 {
 temp = end_node;
-return (*head);
+return (temp);
 while (temp != NULL)
 {
 temp = temp->next;
