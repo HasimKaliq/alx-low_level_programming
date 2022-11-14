@@ -15,7 +15,7 @@ end_node->n = n;
 end_node->next = NULL;
 if (temp == NULL)
 {
-*head = end_node;
+temp = end_node;
 return (*head);
 while (temp != NULL)
 {
