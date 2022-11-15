@@ -14,8 +14,8 @@ end_node->next = NULL;
 
 while (*head->next != NULL)
 {
-head = head->next;
+*head = *head->next;
 }
-head->next = end_node;
+*head->next = end_node;
 return(end_node);
 }
