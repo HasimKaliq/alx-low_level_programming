@@ -14,12 +14,6 @@ if (end_node == NULL)
 {
 return (NULL);
 }
-  
-if (temp == NULL)
-{
-end_node->n = n;
-end_node->next = NULL;
-}
 end_node->n = n;
 end_node->next = NULL;
 
