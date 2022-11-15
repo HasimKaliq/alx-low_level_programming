@@ -17,10 +17,9 @@ if(*head == NULL)
 {
 *head = end_node;
 }
-while (temp->next != NULL)
+while (temp != NULL && temp->next != NULL)
 {
 temp = temp->next;
 }
 temp->next = end_node;
-return(temp->next);
 }
