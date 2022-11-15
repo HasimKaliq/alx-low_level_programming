@@ -22,5 +22,5 @@ while (temp->next != NULL)
 temp = temp->next;
 }
 temp->next = end_node;
-return(end_node);
+return(temp->next);
 }
