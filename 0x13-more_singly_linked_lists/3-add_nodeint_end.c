@@ -10,8 +10,11 @@ if (end_node == NULL)
 {
 return (NULL);
 }
+else
+{
 end_node->n = n;
 end_node->next = NULL;
+}
 if (*head == NULL)
 {
 *head = end_node;
