@@ -13,7 +13,7 @@ return (count);
 }
 while (h)
 {
-if(!(h->n))
+if (!(h->n))
 {
 return (count);
 }
