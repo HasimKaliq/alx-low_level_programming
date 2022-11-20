@@ -13,10 +13,6 @@ return (1);
 }
 while (h)
 {
-if (!(h->n))
-{
-return (count);
-}
 printf("%d\n", h->n);
 count++;
 h = h->next;
