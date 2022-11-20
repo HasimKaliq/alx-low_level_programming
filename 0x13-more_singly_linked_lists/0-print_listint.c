@@ -13,7 +13,7 @@ return (count);
 }
 while (h)
 {
-printf("%d\n", h->n);
+printf("%i\n", h->n);
 count++;
 h = h->next;
 }
