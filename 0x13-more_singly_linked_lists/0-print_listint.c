@@ -6,6 +6,10 @@
  */
 size_t print_listint(const listint_t *h)
 {
+if(!h)
+{
+return(1);
+}
 size_t count = 0;
 while (h)
 {
