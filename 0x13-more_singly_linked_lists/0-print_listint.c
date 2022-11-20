@@ -7,9 +7,9 @@
 size_t print_listint(const listint_t *h)
 {
 size_t count = 0;
-if (h == NULL)
+if (h == NULL || !(h->n))
 {
-return (1);
+return (count);
 }
 while (h)
 {
