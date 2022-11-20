@@ -13,7 +13,7 @@ return (count);
 }
 while (h)
 {
-if(h->n  || h->next != NULL)
+if (h->n  || h->next != NULL)
 {
 count++;
 h = h->next;
