@@ -11,7 +11,7 @@ if (h == NULL)
 {
 return (count);
 }
-while (h->next)
+while (h->next != NULL)
 {
 ++count;
 printf("%d\n", h->n);
