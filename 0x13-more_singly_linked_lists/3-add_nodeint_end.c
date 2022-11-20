@@ -19,7 +19,7 @@ if (*head == NULL)
 {
 *head = end_node;
 }
-while (temp != NULL && temp->next != NULL)
+while (temp)
 {
 temp = temp->next;
 }
