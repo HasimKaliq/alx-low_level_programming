@@ -2,17 +2,18 @@
 
 void free_listint(listint_t *head)
 {
-listint_t *temp;
-
+listint_t *current;
+listint_t *next;
+current = head;
 if (!head)
 {
 return (NULL);
 }
-while(head != NULL)
+while(current != NULL)
 {
-temp = head;
-head = head->next;
-free(temp);
+next = current->next;
+free(current);
+current = next;
 }
 }
 
