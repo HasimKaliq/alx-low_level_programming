@@ -17,5 +17,4 @@ while (temp != NULL)
 	free(temp);
 	temp = next;
 }
-*head = NULL;
 }
