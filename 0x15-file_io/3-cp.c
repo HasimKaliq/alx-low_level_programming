@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * check97 - checks for the correct number of arguments
