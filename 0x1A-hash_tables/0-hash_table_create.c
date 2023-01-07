@@ -10,6 +10,6 @@ if (table == NULL)
     return (NULL);
 }
 table -> size = size;
-table -> array = table;
 return (table);
 }
+
